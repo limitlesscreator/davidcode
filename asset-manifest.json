@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/davidcode/static/css/main.be34717e.css",
+    "main.js": "/davidcode/static/js/main.6e8ab5fe.js",
+    "static/js/453.3aba58cf.chunk.js": "/davidcode/static/js/453.3aba58cf.chunk.js",
+    "index.html": "/davidcode/index.html",
+    "main.be34717e.css.map": "/davidcode/static/css/main.be34717e.css.map",
+    "main.6e8ab5fe.js.map": "/davidcode/static/js/main.6e8ab5fe.js.map",
+    "453.3aba58cf.chunk.js.map": "/davidcode/static/js/453.3aba58cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be34717e.css",
+    "static/js/main.6e8ab5fe.js"
+  ]
+}
