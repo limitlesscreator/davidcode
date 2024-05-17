@@ -3,6 +3,9 @@ import Typed from "typed.js";
 import {useEffect, useRef} from "react";
 
 function App() {
+    
+    let marginLeftOur = s.standardLittle
+    
 
     let htmlFirstLet = useRef(null)
     let htmlSecondLet = useRef(null)
@@ -44,6 +47,11 @@ function App() {
                         setTimeout(() => {
                             hOne.style.fontWeight = 'bold'
                         },1500)
+                        setTimeout(() => {
+                            document.querySelectorAll(`.${marginLeftOur}`).forEach(el => {
+                                el.style.marginLeft = '70px'
+                            })
+                        },2100)
                     }
                 })
                 new Typed(titleSecondLet.current, {
@@ -83,21 +91,21 @@ function App() {
                 <div style={{marginLeft: '30px'}} className={s.standard}>&lt;<span
                     style={{color: '#00DEDE'}}>servises</span>>
                 </div>
-                <div className={s.standardLittle}>&lt;li> <span
+                <div className={marginLeftOur}>&lt;li> <span
                     style={{color: '#F15B63'}}>Computer Graphic</span>  &lt;/li>
                 </div>
-                <div className={s.standardLittle}>&lt;p> <span style={{color: '#D8DEE9'}}>Modeling, texturing, animation, 3D scanning, </span>
+                <div className={marginLeftOur}>&lt;p> <span style={{color: '#D8DEE9'}}>Modeling, texturing, animation, 3D scanning, </span>
                 </div>
-                <div className={s.standardLittle} style={{marginLeft: '100px'}}><span className={s.marginAdap}
+                <div className={marginLeftOur} style={{marginLeft: '100px'}}><span className={s.marginAdap}
                                                                                       style={{color: '#D8DEE9'}}>simulation, tech art and integration</span>  &lt;/p>
                 </div>
                 <br/>
-                <div className={s.standardLittle}>
+                <div className={marginLeftOur}>
                     &lt;li> <span style={{color: '#F15B63'}}>Development</span> &lt;/li>
                 </div>
-                <div className={s.standardLittle}>&lt;p> <span style={{color: '#D8DEE9'}}>Web, mobile app and video games, Web GL, Unity,  </span>
+                <div className={marginLeftOur}>&lt;p> <span style={{color: '#D8DEE9'}}>Web, mobile app and video games, Web GL, Unity,  </span>
                 </div>
-                <div className={s.standardLittle} style={{marginLeft: '100px'}}><span className={s.marginAdap}
+                <div className={marginLeftOur} style={{marginLeft: '100px'}}><span className={s.marginAdap}
                                                                                       style={{color: '#D8DEE9'}}>Unreal Engine, AR and VR</span> &lt;/p>
                 </div>
                 <div style={{marginLeft: '30px'}} className={s.standard}>&lt;<span>/servises</span>></div>
@@ -105,16 +113,16 @@ function App() {
                 <div style={{marginLeft: '30px'}} className={s.standard}>&lt;<span
                     style={{color: '#00DEDE'}}>contact</span>>
                 </div>
-                <div className={s.standardLittle}><a href="https://t.me/david_young_tg">&lt;a href=" <span
+                <div className={marginLeftOur}><a href="https://t.me/david_young_tg">&lt;a href=" <span
                     style={{color: '#D8DEE9'}}>https://t.me/david_young_tg</span>"> <span
                     style={{color: '#F15B63'}}>telegram</span> &lt;/a></a></div>
-                <div className={s.standardLittle}><a href="https://wa.me/16464174650">&lt;a href="<span
+                <div className={marginLeftOur}><a href="https://wa.me/16464174650">&lt;a href="<span
                     style={{color: '#D8DEE9'}}>https://wa.me/16464174650 </span>"> <span
                     style={{color: '#F15B63'}}>whatsapp</span> &lt;/a></a></div>
-                <div className={s.standardLittle}><a href="tel:16464174650">&lt;a href=" <span
+                <div className={marginLeftOur}><a href="tel:16464174650">&lt;a href=" <span
                     style={{color: '#D8DEE9'}}>+16464174650</span>"> <span
                     style={{color: '#F15B63'}}>phone</span> &lt;/a></a></div>
-                <div className={s.standardLittle}><a href="mailto:david.young.info@gmail.com">&lt;a href="<span
+                <div className={marginLeftOur}><a href="mailto:david.young.info@gmail.com">&lt;a href="<span
                     style={{color: '#D8DEE9'}}>david.young.info@gmail.com</span>"> <span
                     style={{color: '#F15B63'}}>email</span> &lt;/a></a></div>
                 <div style={{marginLeft: '30px'}} className={s.standard}>&lt;/contact></div>
